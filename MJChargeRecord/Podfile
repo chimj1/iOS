@@ -1,0 +1,6 @@
+platform:ios,'9.0'
+'path/to/Workspace.xcworkspace'
+target 'MJChargeRecord' do
+pod 'Realm'
+pod 'AFNetworking', '~>3.1.0'
+end

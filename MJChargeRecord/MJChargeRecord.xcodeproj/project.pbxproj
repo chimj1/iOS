@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		544D39371FEBE37E008EF993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D39361FEBE37E008EF993 /* AppDelegate.m */; };
+		544D393A1FEBE37E008EF993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D39391FEBE37E008EF993 /* ViewController.m */; };
+		544D393D1FEBE37E008EF993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544D393B1FEBE37E008EF993 /* Main.storyboard */; };
+		544D393F1FEBE37E008EF993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544D393E1FEBE37E008EF993 /* Assets.xcassets */; };
+		544D39421FEBE37E008EF993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544D39401FEBE37E008EF993 /* LaunchScreen.storyboard */; };
+		544D39451FEBE37E008EF993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D39441FEBE37E008EF993 /* main.m */; };
+		544D394F1FEBE37F008EF993 /* MJChargeRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D394E1FEBE37F008EF993 /* MJChargeRecordTests.m */; };
+		544D395A1FEBE37F008EF993 /* MJChargeRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D39591FEBE37F008EF993 /* MJChargeRecordUITests.m */; };
+		6615AC5001E0445D42EDB10E /* libPods-MJChargeRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 941D6F5AE391AA8DDDC3EE04 /* libPods-MJChargeRecord.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		544D394B1FEBE37F008EF993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 544D392A1FEBE37E008EF993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 544D39311FEBE37E008EF993;
+			remoteInfo = MJChargeRecord;
+		};
+		544D39561FEBE37F008EF993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 544D392A1FEBE37E008EF993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 544D39311FEBE37E008EF993;
+			remoteInfo = MJChargeRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		137268096F833D4F969EFA57 /* Pods-MJChargeRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJChargeRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJChargeRecord/Pods-MJChargeRecord.release.xcconfig"; sourceTree = "<group>"; };
+		544D39321FEBE37E008EF993 /* MJChargeRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJChargeRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		544D39351FEBE37E008EF993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		544D39361FEBE37E008EF993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		544D39381FEBE37E008EF993 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		544D39391FEBE37E008EF993 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		544D393C1FEBE37E008EF993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		544D393E1FEBE37E008EF993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		544D39411FEBE37E008EF993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		544D39431FEBE37E008EF993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544D39441FEBE37E008EF993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		544D394A1FEBE37F008EF993 /* MJChargeRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJChargeRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		544D394E1FEBE37F008EF993 /* MJChargeRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJChargeRecordTests.m; sourceTree = "<group>"; };
+		544D39501FEBE37F008EF993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544D39551FEBE37F008EF993 /* MJChargeRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJChargeRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		544D39591FEBE37F008EF993 /* MJChargeRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJChargeRecordUITests.m; sourceTree = "<group>"; };
+		544D395B1FEBE37F008EF993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941D6F5AE391AA8DDDC3EE04 /* libPods-MJChargeRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJChargeRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C838357AAD2635AF7AEBFD10 /* Pods-MJChargeRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJChargeRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJChargeRecord/Pods-MJChargeRecord.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		544D392F1FEBE37E008EF993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6615AC5001E0445D42EDB10E /* libPods-MJChargeRecord.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544D39471FEBE37F008EF993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544D39521FEBE37F008EF993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1017CAF213E6920213673EA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C838357AAD2635AF7AEBFD10 /* Pods-MJChargeRecord.debug.xcconfig */,
+				137268096F833D4F969EFA57 /* Pods-MJChargeRecord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20E19367142F52C8EEBD1B33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				941D6F5AE391AA8DDDC3EE04 /* libPods-MJChargeRecord.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		544D39291FEBE37E008EF993 = {
+			isa = PBXGroup;
+			children = (
+				544D39341FEBE37E008EF993 /* MJChargeRecord */,
+				544D394D1FEBE37F008EF993 /* MJChargeRecordTests */,
+				544D39581FEBE37F008EF993 /* MJChargeRecordUITests */,
+				544D39331FEBE37E008EF993 /* Products */,
+				1017CAF213E6920213673EA6 /* Pods */,
+				20E19367142F52C8EEBD1B33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		544D39331FEBE37E008EF993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				544D39321FEBE37E008EF993 /* MJChargeRecord.app */,
+				544D394A1FEBE37F008EF993 /* MJChargeRecordTests.xctest */,
+				544D39551FEBE37F008EF993 /* MJChargeRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		544D39341FEBE37E008EF993 /* MJChargeRecord */ = {
+			isa = PBXGroup;
+			children = (
+				544D39351FEBE37E008EF993 /* AppDelegate.h */,
+				544D39361FEBE37E008EF993 /* AppDelegate.m */,
+				544D39381FEBE37E008EF993 /* ViewController.h */,
+				544D39391FEBE37E008EF993 /* ViewController.m */,
+				544D393B1FEBE37E008EF993 /* Main.storyboard */,
+				544D393E1FEBE37E008EF993 /* Assets.xcassets */,
+				544D39401FEBE37E008EF993 /* LaunchScreen.storyboard */,
+				544D39431FEBE37E008EF993 /* Info.plist */,
+				544D39441FEBE37E008EF993 /* main.m */,
+			);
+			path = MJChargeRecord;
+			sourceTree = "<group>";
+		};
+		544D394D1FEBE37F008EF993 /* MJChargeRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				544D394E1FEBE37F008EF993 /* MJChargeRecordTests.m */,
+				544D39501FEBE37F008EF993 /* Info.plist */,
+			);
+			path = MJChargeRecordTests;
+			sourceTree = "<group>";
+		};
+		544D39581FEBE37F008EF993 /* MJChargeRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				544D39591FEBE37F008EF993 /* MJChargeRecordUITests.m */,
+				544D395B1FEBE37F008EF993 /* Info.plist */,
+			);
+			path = MJChargeRecordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		544D39311FEBE37E008EF993 /* MJChargeRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544D395E1FEBE37F008EF993 /* Build configuration list for PBXNativeTarget "MJChargeRecord" */;
+			buildPhases = (
+				4D31FC963CA3F4B492874308 /* [CP] Check Pods Manifest.lock */,
+				544D392E1FEBE37E008EF993 /* Sources */,
+				544D392F1FEBE37E008EF993 /* Frameworks */,
+				544D39301FEBE37E008EF993 /* Resources */,
+				EBCDF96F84B097EC6C99AD33 /* [CP] Embed Pods Frameworks */,
+				76537A406B434188BBE7B08D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJChargeRecord;
+			productName = MJChargeRecord;
+			productReference = 544D39321FEBE37E008EF993 /* MJChargeRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		544D39491FEBE37F008EF993 /* MJChargeRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544D39611FEBE37F008EF993 /* Build configuration list for PBXNativeTarget "MJChargeRecordTests" */;
+			buildPhases = (
+				544D39461FEBE37F008EF993 /* Sources */,
+				544D39471FEBE37F008EF993 /* Frameworks */,
+				544D39481FEBE37F008EF993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				544D394C1FEBE37F008EF993 /* PBXTargetDependency */,
+			);
+			name = MJChargeRecordTests;
+			productName = MJChargeRecordTests;
+			productReference = 544D394A1FEBE37F008EF993 /* MJChargeRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		544D39541FEBE37F008EF993 /* MJChargeRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544D39641FEBE37F008EF993 /* Build configuration list for PBXNativeTarget "MJChargeRecordUITests" */;
+			buildPhases = (
+				544D39511FEBE37F008EF993 /* Sources */,
+				544D39521FEBE37F008EF993 /* Frameworks */,
+				544D39531FEBE37F008EF993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				544D39571FEBE37F008EF993 /* PBXTargetDependency */,
+			);
+			name = MJChargeRecordUITests;
+			productName = MJChargeRecordUITests;
+			productReference = 544D39551FEBE37F008EF993 /* MJChargeRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		544D392A1FEBE37E008EF993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = chimj;
+				TargetAttributes = {
+					544D39311FEBE37E008EF993 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					544D39491FEBE37F008EF993 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 544D39311FEBE37E008EF993;
+					};
+					544D39541FEBE37F008EF993 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 544D39311FEBE37E008EF993;
+					};
+				};
+			};
+			buildConfigurationList = 544D392D1FEBE37E008EF993 /* Build configuration list for PBXProject "MJChargeRecord" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 544D39291FEBE37E008EF993;
+			productRefGroup = 544D39331FEBE37E008EF993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				544D39311FEBE37E008EF993 /* MJChargeRecord */,
+				544D39491FEBE37F008EF993 /* MJChargeRecordTests */,
+				544D39541FEBE37F008EF993 /* MJChargeRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		544D39301FEBE37E008EF993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544D39421FEBE37E008EF993 /* LaunchScreen.storyboard in Resources */,
+				544D393F1FEBE37E008EF993 /* Assets.xcassets in Resources */,
+				544D393D1FEBE37E008EF993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544D39481FEBE37F008EF993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544D39531FEBE37F008EF993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D31FC963CA3F4B492874308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MJChargeRecord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76537A406B434188BBE7B08D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJChargeRecord/Pods-MJChargeRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCDF96F84B097EC6C99AD33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJChargeRecord/Pods-MJChargeRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		544D392E1FEBE37E008EF993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544D393A1FEBE37E008EF993 /* ViewController.m in Sources */,
+				544D39451FEBE37E008EF993 /* main.m in Sources */,
+				544D39371FEBE37E008EF993 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544D39461FEBE37F008EF993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544D394F1FEBE37F008EF993 /* MJChargeRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544D39511FEBE37F008EF993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544D395A1FEBE37F008EF993 /* MJChargeRecordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		544D394C1FEBE37F008EF993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 544D39311FEBE37E008EF993 /* MJChargeRecord */;
+			targetProxy = 544D394B1FEBE37F008EF993 /* PBXContainerItemProxy */;
+		};
+		544D39571FEBE37F008EF993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 544D39311FEBE37E008EF993 /* MJChargeRecord */;
+			targetProxy = 544D39561FEBE37F008EF993 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		544D393B1FEBE37E008EF993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				544D393C1FEBE37E008EF993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		544D39401FEBE37E008EF993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				544D39411FEBE37E008EF993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		544D395C1FEBE37F008EF993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		544D395D1FEBE37F008EF993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		544D395F1FEBE37F008EF993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C838357AAD2635AF7AEBFD10 /* Pods-MJChargeRecord.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M84U9Y93P;
+				INFOPLIST_FILE = MJChargeRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.MJChargeRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		544D39601FEBE37F008EF993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137268096F833D4F969EFA57 /* Pods-MJChargeRecord.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M84U9Y93P;
+				INFOPLIST_FILE = MJChargeRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.MJChargeRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		544D39621FEBE37F008EF993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M84U9Y93P;
+				INFOPLIST_FILE = MJChargeRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.MJChargeRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJChargeRecord.app/MJChargeRecord";
+			};
+			name = Debug;
+		};
+		544D39631FEBE37F008EF993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M84U9Y93P;
+				INFOPLIST_FILE = MJChargeRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.MJChargeRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJChargeRecord.app/MJChargeRecord";
+			};
+			name = Release;
+		};
+		544D39651FEBE37F008EF993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M84U9Y93P;
+				INFOPLIST_FILE = MJChargeRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.MJChargeRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MJChargeRecord;
+			};
+			name = Debug;
+		};
+		544D39661FEBE37F008EF993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M84U9Y93P;
+				INFOPLIST_FILE = MJChargeRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.MJChargeRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MJChargeRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		544D392D1FEBE37E008EF993 /* Build configuration list for PBXProject "MJChargeRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				544D395C1FEBE37F008EF993 /* Debug */,
+				544D395D1FEBE37F008EF993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544D395E1FEBE37F008EF993 /* Build configuration list for PBXNativeTarget "MJChargeRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				544D395F1FEBE37F008EF993 /* Debug */,
+				544D39601FEBE37F008EF993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544D39611FEBE37F008EF993 /* Build configuration list for PBXNativeTarget "MJChargeRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				544D39621FEBE37F008EF993 /* Debug */,
+				544D39631FEBE37F008EF993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544D39641FEBE37F008EF993 /* Build configuration list for PBXNativeTarget "MJChargeRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				544D39651FEBE37F008EF993 /* Debug */,
+				544D39661FEBE37F008EF993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 544D392A1FEBE37E008EF993 /* Project object */;
+}
