@@ -15,6 +15,8 @@
 		544D39451FEBE37E008EF993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D39441FEBE37E008EF993 /* main.m */; };
 		544D394F1FEBE37F008EF993 /* MJChargeRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D394E1FEBE37F008EF993 /* MJChargeRecordTests.m */; };
 		544D395A1FEBE37F008EF993 /* MJChargeRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D39591FEBE37F008EF993 /* MJChargeRecordUITests.m */; };
+		54AD71E61FFBCC0000FEAA0E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AD71E51FFBCC0000FEAA0E /* libz.tbd */; };
+		54AD71E81FFBCC2200FEAA0E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AD71E71FFBCC2200FEAA0E /* libc++.tbd */; };
 		6615AC5001E0445D42EDB10E /* libPods-MJChargeRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 941D6F5AE391AA8DDDC3EE04 /* libPods-MJChargeRecord.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		544D39551FEBE37F008EF993 /* MJChargeRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJChargeRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		544D39591FEBE37F008EF993 /* MJChargeRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJChargeRecordUITests.m; sourceTree = "<group>"; };
 		544D395B1FEBE37F008EF993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AD71E51FFBCC0000FEAA0E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		54AD71E71FFBCC2200FEAA0E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		941D6F5AE391AA8DDDC3EE04 /* libPods-MJChargeRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJChargeRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C838357AAD2635AF7AEBFD10 /* Pods-MJChargeRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJChargeRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJChargeRecord/Pods-MJChargeRecord.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54AD71E81FFBCC2200FEAA0E /* libc++.tbd in Frameworks */,
 				6615AC5001E0445D42EDB10E /* libPods-MJChargeRecord.a in Frameworks */,
+				54AD71E61FFBCC0000FEAA0E /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +101,8 @@
 		20E19367142F52C8EEBD1B33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54AD71E71FFBCC2200FEAA0E /* libc++.tbd */,
+				54AD71E51FFBCC0000FEAA0E /* libz.tbd */,
 				941D6F5AE391AA8DDDC3EE04 /* libPods-MJChargeRecord.a */,
 			);
 			name = Frameworks;
