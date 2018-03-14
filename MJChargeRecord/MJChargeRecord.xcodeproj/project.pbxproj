@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		544D39371FEBE37E008EF993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D39361FEBE37E008EF993 /* AppDelegate.m */; };
-		544D393A1FEBE37E008EF993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D39391FEBE37E008EF993 /* ViewController.m */; };
-		544D393D1FEBE37E008EF993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544D393B1FEBE37E008EF993 /* Main.storyboard */; };
 		544D393F1FEBE37E008EF993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544D393E1FEBE37E008EF993 /* Assets.xcassets */; };
-		544D39421FEBE37E008EF993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544D39401FEBE37E008EF993 /* LaunchScreen.storyboard */; };
 		544D39451FEBE37E008EF993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D39441FEBE37E008EF993 /* main.m */; };
 		544D394F1FEBE37F008EF993 /* MJChargeRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D394E1FEBE37F008EF993 /* MJChargeRecordTests.m */; };
 		544D395A1FEBE37F008EF993 /* MJChargeRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D39591FEBE37F008EF993 /* MJChargeRecordUITests.m */; };
 		54AD71E61FFBCC0000FEAA0E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AD71E51FFBCC0000FEAA0E /* libz.tbd */; };
 		54AD71E81FFBCC2200FEAA0E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AD71E71FFBCC2200FEAA0E /* libc++.tbd */; };
+		54AE9FA22001F23700F9B106 /* CMJMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9FA12001F23700F9B106 /* CMJMainVC.m */; };
+		54AE9FB52001F39700F9B106 /* CMJChargeRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9FB42001F39700F9B106 /* CMJChargeRecordVC.m */; };
+		54AE9FB82001F3AD00F9B106 /* CMJMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9FB72001F3AD00F9B106 /* CMJMineVC.m */; };
+		54AE9FBB2001F3CB00F9B106 /* CMJChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9FBA2001F3CB00F9B106 /* CMJChartVC.m */; };
 		6615AC5001E0445D42EDB10E /* libPods-MJChargeRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 941D6F5AE391AA8DDDC3EE04 /* libPods-MJChargeRecord.a */; };
 /* End PBXBuildFile section */
 
@@ -42,11 +43,7 @@
 		544D39321FEBE37E008EF993 /* MJChargeRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJChargeRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		544D39351FEBE37E008EF993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		544D39361FEBE37E008EF993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		544D39381FEBE37E008EF993 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		544D39391FEBE37E008EF993 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		544D393C1FEBE37E008EF993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		544D393E1FEBE37E008EF993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		544D39411FEBE37E008EF993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		544D39431FEBE37E008EF993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544D39441FEBE37E008EF993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		544D394A1FEBE37F008EF993 /* MJChargeRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJChargeRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +54,14 @@
 		544D395B1FEBE37F008EF993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54AD71E51FFBCC0000FEAA0E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		54AD71E71FFBCC2200FEAA0E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		54AE9FA02001F23700F9B106 /* CMJMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMJMainVC.h; sourceTree = "<group>"; };
+		54AE9FA12001F23700F9B106 /* CMJMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMJMainVC.m; sourceTree = "<group>"; };
+		54AE9FB32001F39700F9B106 /* CMJChargeRecordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMJChargeRecordVC.h; sourceTree = "<group>"; };
+		54AE9FB42001F39700F9B106 /* CMJChargeRecordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMJChargeRecordVC.m; sourceTree = "<group>"; };
+		54AE9FB62001F3AD00F9B106 /* CMJMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMJMineVC.h; sourceTree = "<group>"; };
+		54AE9FB72001F3AD00F9B106 /* CMJMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMJMineVC.m; sourceTree = "<group>"; };
+		54AE9FB92001F3CB00F9B106 /* CMJChartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMJChartVC.h; sourceTree = "<group>"; };
+		54AE9FBA2001F3CB00F9B106 /* CMJChartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMJChartVC.m; sourceTree = "<group>"; };
 		941D6F5AE391AA8DDDC3EE04 /* libPods-MJChargeRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJChargeRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C838357AAD2635AF7AEBFD10 /* Pods-MJChargeRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJChargeRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJChargeRecord/Pods-MJChargeRecord.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,15 +138,9 @@
 		544D39341FEBE37E008EF993 /* MJChargeRecord */ = {
 			isa = PBXGroup;
 			children = (
-				544D39351FEBE37E008EF993 /* AppDelegate.h */,
-				544D39361FEBE37E008EF993 /* AppDelegate.m */,
-				544D39381FEBE37E008EF993 /* ViewController.h */,
-				544D39391FEBE37E008EF993 /* ViewController.m */,
-				544D393B1FEBE37E008EF993 /* Main.storyboard */,
-				544D393E1FEBE37E008EF993 /* Assets.xcassets */,
-				544D39401FEBE37E008EF993 /* LaunchScreen.storyboard */,
-				544D39431FEBE37E008EF993 /* Info.plist */,
-				544D39441FEBE37E008EF993 /* main.m */,
+				54AE9FA42001F26300F9B106 /* index */,
+				54AE9FA62001F29200F9B106 /* util */,
+				54AE9FA52001F27600F9B106 /* resources */,
 			);
 			path = MJChargeRecord;
 			sourceTree = "<group>";
@@ -162,6 +161,144 @@
 				544D395B1FEBE37F008EF993 /* Info.plist */,
 			);
 			path = MJChargeRecordUITests;
+			sourceTree = "<group>";
+		};
+		54AE9F9F2001F20200F9B106 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9FA02001F23700F9B106 /* CMJMainVC.h */,
+				54AE9FA12001F23700F9B106 /* CMJMainVC.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		54AE9FA32001F24300F9B106 /* charge_record */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9FA92001F2DE00F9B106 /* model */,
+				54AE9FA82001F2DA00F9B106 /* view */,
+				54AE9FA72001F2D400F9B106 /* vc */,
+			);
+			path = charge_record;
+			sourceTree = "<group>";
+		};
+		54AE9FA42001F26300F9B106 /* index */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9FAF2001F33300F9B106 /* chart */,
+				54AE9FAB2001F31000F9B106 /* mine */,
+				54AE9FA32001F24300F9B106 /* charge_record */,
+				54AE9F9F2001F20200F9B106 /* main */,
+			);
+			path = index;
+			sourceTree = "<group>";
+		};
+		54AE9FA52001F27600F9B106 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				544D39351FEBE37E008EF993 /* AppDelegate.h */,
+				544D39361FEBE37E008EF993 /* AppDelegate.m */,
+				544D393E1FEBE37E008EF993 /* Assets.xcassets */,
+				544D39431FEBE37E008EF993 /* Info.plist */,
+				544D39441FEBE37E008EF993 /* main.m */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		54AE9FA62001F29200F9B106 /* util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		54AE9FA72001F2D400F9B106 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9FB32001F39700F9B106 /* CMJChargeRecordVC.h */,
+				54AE9FB42001F39700F9B106 /* CMJChargeRecordVC.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		54AE9FA82001F2DA00F9B106 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		54AE9FA92001F2DE00F9B106 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		54AE9FAB2001F31000F9B106 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9FAE2001F31F00F9B106 /* model */,
+				54AE9FAD2001F31B00F9B106 /* view */,
+				54AE9FAC2001F31600F9B106 /* vc */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		54AE9FAC2001F31600F9B106 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9FB62001F3AD00F9B106 /* CMJMineVC.h */,
+				54AE9FB72001F3AD00F9B106 /* CMJMineVC.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		54AE9FAD2001F31B00F9B106 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		54AE9FAE2001F31F00F9B106 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		54AE9FAF2001F33300F9B106 /* chart */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9FB22001F35E00F9B106 /* model */,
+				54AE9FB12001F35900F9B106 /* view */,
+				54AE9FB02001F35500F9B106 /* vc */,
+			);
+			path = chart;
+			sourceTree = "<group>";
+		};
+		54AE9FB02001F35500F9B106 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9FB92001F3CB00F9B106 /* CMJChartVC.h */,
+				54AE9FBA2001F3CB00F9B106 /* CMJChartVC.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		54AE9FB12001F35900F9B106 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		54AE9FB22001F35E00F9B106 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544D39421FEBE37E008EF993 /* LaunchScreen.storyboard in Resources */,
 				544D393F1FEBE37E008EF993 /* Assets.xcassets in Resources */,
-				544D393D1FEBE37E008EF993 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +486,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544D393A1FEBE37E008EF993 /* ViewController.m in Sources */,
+				54AE9FBB2001F3CB00F9B106 /* CMJChartVC.m in Sources */,
+				54AE9FA22001F23700F9B106 /* CMJMainVC.m in Sources */,
+				54AE9FB82001F3AD00F9B106 /* CMJMineVC.m in Sources */,
 				544D39451FEBE37E008EF993 /* main.m in Sources */,
+				54AE9FB52001F39700F9B106 /* CMJChargeRecordVC.m in Sources */,
 				544D39371FEBE37E008EF993 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,25 +525,6 @@
 			targetProxy = 544D39561FEBE37F008EF993 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		544D393B1FEBE37E008EF993 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				544D393C1FEBE37E008EF993 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		544D39401FEBE37E008EF993 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				544D39411FEBE37E008EF993 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		544D395C1FEBE37F008EF993 /* Debug */ = {
@@ -520,10 +639,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6M84U9Y93P;
 				INFOPLIST_FILE = MJChargeRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.MJChargeRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -535,10 +655,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6M84U9Y93P;
 				INFOPLIST_FILE = MJChargeRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.MJChargeRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
